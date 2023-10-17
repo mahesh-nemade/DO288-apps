@@ -9,6 +9,7 @@ echo "---> Enabling s2i support in httpd24 image"
 config_s2i
 
 ######## CUSTOMIZATION STARTS HERE ############
+<<<<<<< HEAD
 cp -Rf /tmp/src/*.html ./
 date "+%F" >> ./info.html
 echo"Astra inclinant, sed non obligant" >> ./info.html
@@ -32,4 +33,3 @@ else
 fi
 
 # Fix source directory permissions
-fix-permissions ./
