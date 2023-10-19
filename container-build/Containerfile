@@ -1,2 +1,2 @@
 # Use the httpd-parent image as base
-FROM quay.io/mahesh-nemade20/httpd-parent
+FROM quay.io/mahesh_nemade20/httpd-parent
